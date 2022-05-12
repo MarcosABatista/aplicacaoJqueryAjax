@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>CEP</title>
+  </head>
+  <body>
+    <div id="header">
+      <input type="number" id="cep" />
+    </div>
+    <div id="buttons">
+      <button onclick="consultaCep()">Consultar CEP!</button>
+      <button onclick="limpar()" id="limpar">Limpar</button>
+    </div>
+    <div id="local" class="text">
+      <h3 id="localidade" class="text"></h3>
+      <h3 id="uf"></h3>
+    </div>
+  </body>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/jquery.js"></script>
+</html>
